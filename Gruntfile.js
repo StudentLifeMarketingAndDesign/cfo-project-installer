@@ -16,7 +16,6 @@ module.exports = function(grunt) {
         },                  // Target
         options: {              // Target options
           style: 'compressed',
-          sourcemap: 'true',
           loadPath: [
           'cfo-project/bower_components/foundation/scss'
           ]

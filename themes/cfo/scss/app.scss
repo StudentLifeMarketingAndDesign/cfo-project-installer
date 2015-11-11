@@ -2,59 +2,7 @@
 -------------------------------------------*/
 @import "settings";
 
-/* import foundation components
--------------------------------------------*/
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/grid";
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/accordion";*/
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/alert-boxes";*/
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/block-grid";
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/breadcrumbs";
-// @import "../../../cfo-project/bower_components/foundation/scss/foundation/components/button-groups";
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/buttons";*/
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/clearing";*/
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/dropdown";*/
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/dropdown-buttons";*/
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/flex-video";
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/forms";*/
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/icon-bar";
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/inline-lists";
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/joyride";*/
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/keystrokes";*/
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/labels";*/
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/magellan";*/
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/orbit";
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/pagination";
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/panels";
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/pricing-tables";*/
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/progress-bars";*/
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/range-slider";*/
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/reveal";*/
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/side-nav";
-// @import "../../../cfo-project/bower_components/foundation/scss/foundation/components/split-buttons";
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/sub-nav";
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/switches";*/
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/tables";*/
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/tabs";*/
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/thumbs";
-/*@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/tooltips";*/
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/top-bar";
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/type";
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/offcanvas";
-@import "../../../cfo-project/bower_components/foundation/scss/foundation/components/visibility";
+@import "../../../cfo-project/scss/app.scss";
 
-/* import division bar
--------------------------------------------*/
-@import "../../../division-bar/css/_division-bar.css";
-
-/* additional division bar styles for foundation:
--------------------------------------------*/
-@import "../../../cfo-project/scss/layout/division-bar";
-
-/* footer styles from division-project
--------------------------------------------*/
-@import "../../../cfo-project/scss/layout/footer/footer";
-
-@import "../../../cfo-project/scss/_theme";
-/* Theme Styles
--------------------------------------------*/
-@import "_theme";
+/* River Run Specific Styles */
+@import "theme";
